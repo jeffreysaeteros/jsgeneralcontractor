@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('grid_1.png');
+    background-size: 40%;
+    
+}
+
+.navbar{
+    height: 10vh;
+    width: 80%;
+    margin: 0 auto
+}
