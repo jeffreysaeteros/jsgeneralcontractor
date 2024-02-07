@@ -4,13 +4,38 @@
 }
 
 body{
-    background-image: url('grid_1.png');
+    background-image: url('images/grid_1.png');
     background-size: 40%;
     
 }
 
 .navbar{
-    height: 10vh;
-    width: 80%;
-    margin: 0 auto
+    height: 70px;
+    width: 75%;
+    margin: 20px auto;
+
+}
+
+.s1{
+    height: 600px;
+    width: 75%;
+    margin: 20px auto;
+    background-color: rgb(248, 249, 250);
+}
+.carousel-item>img{
+    height: 600px;
+}
+
+.s2{
+    height: 110px;
+    width: 75%;
+    margin: 20px auto;
+    background-color: rgb(248, 249, 250);
+}
+.s2 nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto 0;
 }
