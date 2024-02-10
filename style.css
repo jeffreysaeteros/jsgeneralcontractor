@@ -1,13 +1,16 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Arial,Helvetica,sans-serif;
+    font: normal normal normal 20px/1.1em 'courier new',courier-ps-w01,courier-ps-w02,courier-ps-w10,monospace;
+    
 }
-
 body{
     background-image: url('images/grid_1.png');
     background-size: 40%;
     
 }
+
 
 .navbar{
     height: 70px;
@@ -17,13 +20,13 @@ body{
 }
 
 .s1{
-    height: 600px;
+    height: 650px;
     width: 75%;
     margin: 20px auto;
     background-color: rgb(248, 249, 250);
 }
 .carousel-item>img{
-    height: 600px;
+    height: 650px;
 }
 
 .s2{
@@ -32,10 +35,12 @@ body{
     margin: 20px auto;
     background-color: rgb(248, 249, 250);
 }
-.s2 nav{
+.s2{
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
-    margin: auto 0;
+}
+
+#carousel-indicators > button{
+    cursor:default;
 }
